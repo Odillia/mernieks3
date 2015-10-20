@@ -21,7 +21,7 @@ body {
 }
 .main-content {
   margin: 0 auto;
-  width: 1080px;
+  width: 1280px;
 }
 #header {
   width: 1280px;
@@ -85,9 +85,9 @@ body {
   height: auto;
 }
 .transbox {
-  background-color: #000000;
-  opacity:0.7;
-  filter:alpha(opacity=60); /* For IE8 and earlier */
+  background-color: rgba(0, 0, 0, 0.7);
+  /*opacity:0.7;
+  filter:alpha(opacity=60); /* For IE8 and earlier */*/
 }
 #right-bullet {
   position: absolute;
@@ -120,7 +120,7 @@ body {
   color: #ffffff;
   font-weight: lighter;
   text-align: left;
-  margin: 0px auto;
+  margin: 5px auto;
   padding: 15px;
 }
 .slider-links-container{
@@ -166,6 +166,7 @@ span.slider-link:hover{
 }
 .services {
   padding-bottom: 30px;
+  margin-top: -5px;
 }
 .services-container {
   width: 330px;
@@ -261,6 +262,7 @@ span.slider-link:hover{
 .price {
   text-align: center;
   font-weight: bold;
+  font-size: 14px;
   padding-right: 15px;
   padding-top: 10px;
   vertical-align: top;
